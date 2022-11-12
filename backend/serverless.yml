@@ -26,7 +26,7 @@ provider:
   environment:
     PROJECT_NAME: udapeople-serveless
     TODOS_TABLE: udapeople-serverless-${self:provider.stage}
-    S3_BUCKET_NAME: udapeople-serverless-${self:provider.stage}
+    S3_BUCKET_NAME: udapeople-serverless-prod
   
 
 custom:
